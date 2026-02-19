@@ -1,6 +1,6 @@
 import Foundation
 
-enum LibraryError: Error, LocalizedError {
+enum LibraryError: Error {
     case emptyTitle
     case emptyAuthor
     case invalidYear(Int)
